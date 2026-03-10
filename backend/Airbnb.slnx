@@ -1,0 +1,51 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/API/API.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Bookings/">
+    <Project Path="src/Modules/Bookings/Bookings.Application/Bookings.Application.csproj" />
+    <Project Path="src/Modules/Bookings/Bookings.Domain/Bookings.Domain.csproj" />
+    <Project Path="src/Modules/Bookings/Bookings.Infrastructure/Bookings.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Messaging/">
+    <Project Path="src/Modules/Messaging/Messaging.Application/Messaging.Application.csproj" />
+    <Project Path="src/Modules/Messaging/Messaging.Domain/Messaging.Domain.csproj" />
+    <Project Path="src/Modules/Messaging/Messaging.Infrastructure/Messaging.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Notifications/">
+    <Project Path="src/Modules/Notifications/Notifications.Application/Notifications.Application.csproj" />
+    <Project Path="src/Modules/Notifications/Notifications.Domain/Notifications.Domain.csproj" />
+    <Project Path="src/Modules/Notifications/Notifications.Infrastructure/Notifications.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Payments/">
+    <Project Path="src/Modules/Payments/Payments.Application/Payments.Application.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Domain/Payments.Domain.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Infrastructure/Payments.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Properties/">
+    <Project Path="src/Modules/Properties/Properties.Application/Properties.Application.csproj" />
+    <Project Path="src/Modules/Properties/Properties.Domain/Properties.Domain.csproj" />
+    <Project Path="src/Modules/Properties/Properties.Infrastructure/Properties.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Reviews/">
+    <Project Path="src/Modules/Reviews/Reviews.Application/Reviews.Application.csproj" />
+    <Project Path="src/Modules/Reviews/Reviews.Domain/Reviews.Domain.csproj" />
+    <Project Path="src/Modules/Reviews/Reviews.Infrastructure/Reviews.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Users/">
+    <Project Path="src/Modules/Users/Users.Application/Users.Application.csproj" />
+    <Project Path="src/Modules/Users/Users.Domain/Users.Domain.csproj" />
+    <Project Path="src/Modules/Users/Users.Infrastructure/Users.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Shared.Application/Shared.Application.csproj" />
+    <Project Path="src/Shared/Shared.Domain/Shared.Domain.csproj" />
+    <Project Path="src/Shared/Shared.Infrastructure/Shared.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ArchitectureTests/ArchitectureTests.csproj" />
+    <Project Path="tests/IntegrationTests/IntegrationTests.csproj" />
+    <Project Path="tests/UnitTests/UnitTests.csproj" />
+  </Folder>
+</Solution>
